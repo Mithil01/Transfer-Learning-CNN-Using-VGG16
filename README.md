@@ -11,4 +11,6 @@
         3.  Use same network as Model-2 'INPUT --> VGG-16 without Top layers(FC) --> 2 Conv Layers identical to FC --> Output Layer' and train only Last 6 Layers of VGG-16 network, 2 Conv layers identical to FC layers, 1 output layer.
         
     Summary of Three models:
-        <img width="269" alt="image" src="https://user-images.githubusercontent.com/55178845/204604754-8df76fba-9d62-47e2-bcdd-498fcac40679.png">
+        1. No. of trainable parameters for model3 > model2 > model1.
+        2. Validation accuracy for model2 and model1 is more or less same. Since we used pretrained Vgg16 model without training its params.
+        3. Validation accuracy for model3 is very very low, this is owing to V large trainable params(last 6 layers Vgg16 added). Maybe with more data and more number of epochs, validation accuracy of model3 might improve.
