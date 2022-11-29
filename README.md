@@ -1,6 +1,6 @@
 # Transfer-Learning-CNN-Using-VGG16
 
-  Applying concepts learned in Transfer Learning.
+  Applying concepts learnt in Transfer Learning.
   
   Dataset link : https://www.kaggle.com/datasets/brahma0545/aaic-assignment-tl?datasetId=836734&select=data_final
   
